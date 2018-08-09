@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" /> <title>Create an Account</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Register a new membership">
+<link href='../webroot/img/zagl-favico_2x.png' type='image/x-icon' rel='icon' /><link href='../webroot/img/zagl-favico_2x.png' type='image/x-icon' rel='shortcut icon' />
+<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic" rel="stylesheet">
+<link rel="stylesheet" href="../build/css/dashboard.min.css" />
+<!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="hold-transition login-page">
+<div class="login-box">
+<div class="login-logo">
+<a href="../index.html"><img src='https://za.gl/webroot/img/zagl-color.svg' alt='za.gl' /></a>
+</div>
+<div class="login-box-body">
+<p class="login-box-msg">Register a new membership</p>
+<form method="post" accept-charset="utf-8" id="signup-form" action="../auth/signup.html"><div style="display:none;"><input type="hidden" name="_method" value="POST" /><input type="hidden" name="_csrfToken" autocomplete="off" value="c77485f5e0eaa0acd19c0aeebf8f04f7c1019708dc930e23dc3d9f16fb22b0d4547c26237888e9786d2a1b8e735a37c97c9b02fed885f4b18692381480c633d7" /></div>
+<div class="form-group text  required"><input type="text" name="username" placeholder="Username" class="form-control" required="required" maxlength="150" id="username" value="" /></div>
+<div class="form-group email  required"><input type="email" name="email" placeholder="Email" class="form-control" required="required" maxlength="254" id="email" value="" /></div>
+<div class="form-group password  required"><input type="password" name="password" placeholder="Password" class="form-control" required="required" id="password" value="" /></div>
+<div class="form-group password  required"><input type="password" name="password_compare" placeholder="Re-enter Password" class="form-control" required="required" id="password-compare" /></div>
+<div class="form-group">
+<div class="form-group checkbox  required"><input type="hidden" name="accept" value="0" /><label for="accept"><input type="checkbox" name="accept" value="1" required="required" id="accept"><b>I agree to the <a href='../pages/terms.html' target='_blank'>Terms of Use</a> and <a href='../pages/privacy.html' target='_blank'>Privacy Policy</a>.</b></label></div></div>
+<button class="btn btn-primary btn-block btn-flat btn-captcha" id="invisibleCaptchaSignup" type="submit">Register</button>
+<div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="6e057ed79d7b88b702076e59de788933e5c923e2%3A" /><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="adcopy_challenge%7Cadcopy_response%7Ccoinhive-captcha-token%7Cg-recaptcha-response" /></div></form>
+<div class="social-auth-links text-center">
+<p>- OR -</p>
+<form name="post_5b69d89972ecd899167314" style="display:none;" method="post" action="../index.html"><input type="hidden" name="_method" value="POST" /><input type="hidden" name="_csrfToken" autocomplete="off" value="c77485f5e0eaa0acd19c0aeebf8f04f7c1019708dc930e23dc3d9f16fb22b0d4547c26237888e9786d2a1b8e735a37c97c9b02fed885f4b18692381480c633d7" /><div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="25314737e5dd6184d7bf050018c1327be804309b%3A" /><input type="hidden" name="_Token[unlocked]" autocomplete="off" value="" /></div></form><a href="#" class="btn btn-block btn-social btn-facebook" style="margin-bottom: 5px;" onclick="document.post_5b69d89972ecd899167314.submit(); event.returnValue = false; return false;"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
+</div>
+<a href="../auth/signin.html" class="text-center">I already have a membership</a>
+</div>
+</div>
+<footer>
+<div class="container text-center">
+</div>
+</footer>
+<script type='text/javascript'>
+  /* <![CDATA[ */
+  var app_vars = {"base_url":"https:\/\/za.gl\/","language":"en_US","copy":"Copy","copied":"Copied!","user_id":null,"home_shortening_register":"no","enable_captcha":"yes","captcha_type":"recaptcha","reCAPTCHA_site_key":"","invisible_reCAPTCHA_site_key":"","solvemedia_challenge_key":"","coinhive_site_key":"","coinhive_hashes":"1024","captcha_short_anonymous":"0","captcha_shortlink":"yes","captcha_signin":"no","captcha_signup":"yes","captcha_forgot_password":"yes","captcha_contact":"yes","counter_value":"5","counter_start":"DOMContentLoaded","get_link":"Get Link","getting_link":"Getting link...","skip_ad":"Skip Ad","force_disable_adblock":"0","please_disable_adblock":"Please disable Adblock to proceed to the destination page.","cookie_notification_bar":true,"cookie_message":"This website uses cookies to ensure you get the best experience on our website. <a href='https:\/\/za.gl\/pages\/privacy' target='_blank'><b>Learn more<\/b><\/a>","cookie_button":"Got it!"};
+  /* ]]> */
+</script>
+<script src="../js/ads.js"></script><script src="../build/js/dashboard.min.js"></script>
+<script src="../www.google.com/recaptcha/api.js" async defer></script>
+</body>
+</html>
